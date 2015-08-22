@@ -1,13 +1,32 @@
-<div class="contact-form">
-  <div class="wrapper">
-    <form action="http://formspree.io/zor667@gmail.com" method="POST">
-      
-      <label>Расскажите о своём заказе</label>
-      <textarea name="message" placeholder="Приветствую, Иван!&NewLine;Сколько будет стоить разработка сайта для..?"></textarea>
-      <label>или просто отправьте телефон — перезвоню в течение суток.</label>  
-      <input type="text" name="phone" placeholder="+79111111111">
-      <input type="submit" id="contact-form-submit" value="Отправить сообщение">
-      <input type="hidden" name="_next" value="{{ site.url }}/thanks.html" />
-    </form>
+<h2>Оставьте свои координаты,<br>и я буду рада ответить на Ваши вопросы.</h2>
+  <div class="row">
+    <div class="8u 12u$(small)">
+      <form method="post" action="//formspree.io/{{ site.email }}">
+        <div class="row uniform 50%">
+          <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Имя" /></div>
+          <div class="6u$ 12u$(xsmall)"><input type="text" name="email" id="email" placeholder="Почта или скайп" /></div>
+          <div class="12u$"><textarea name="message" id="message" placeholder="Сообщение" rows="4"></textarea></div>
+          <input type="text" name="_gotcha" style="display:none" />
+        </div>
+      </form>
+      <ul class="actions">
+        <li><input type="submit" value="Отправить сообщение" /></li>
+      </ul>
+    </div>
+    <div class="4u$ 12u$(small)">
+      <ul class="labeled-icons">
+        <li>
+        <h3 class="icon fa-skype"><span class="label">Skype</span></h3>
+        {{ site.skype }}
+        </li>
+        <li>
+        <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+        {{ site.phone }}
+        </li>
+        <li>
+        <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+        <a href="#">{{ site.email }}</a>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>

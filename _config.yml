@@ -1,9 +1,13 @@
 # Site settings
-title: Разработка сайтов компаний.
-email: ivan@dianov.org
+title: Инга Афанасьева
+descriptor: Инга Афанасьева
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: http://dianov.org # the base hostname & protocol for your site
-#url: http://localhost:3002 # the base hostname & protocol for your site
+url: http://inga-doroga.ru # the base hostname & protocol for your site
+
+author: Инга Афанасьева
+email: ivan@dianov.org
+phone: +7 905 332-50-17
+skype: doroga12345
 
 # Build settings
 markdown: kramdown

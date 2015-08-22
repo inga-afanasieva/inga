@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Инга Афанасьева</title>
+    <description></description>
+    <link>http://localhost:3000/</link>
+    <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 23 Aug 2015 02:06:43 +0300</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2015 02:06:43 +0300</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Скролл без дырок</title>
+        <description>&lt;p&gt;Порою на сайтах контент распологается в несколько колонок различной высоты, при прокрутке под короткими столбцами появляются пустые места. КПД страницы падает.&lt;/p&gt;
+
+&lt;p&gt;Один из способов решения: останавливать скролл короткого столбца. Он реализован вконтакте на странице поиска человека.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;На &lt;a href=&quot;http://arzamas.academy/&quot;&gt;арзамасе&lt;/a&gt; другое решение — что-то вроде паралакса: столбцы скроллятся с разной скоростью.&lt;/p&gt;
+
+&lt;p&gt;Плюсы:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Плавно и красиво&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Минусы:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;При значительном различии высоты столбцов, скажем, 1:100, придётся очень долго прогручивать страницу, чтобы короткий столбец немного сдвинулся. Не удивительно, что в контакте другая реализация: страницы там бесконечные.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 10 Aug 2015 00:00:00 +0300</pubDate>
+        <link>http://localhost:3000/2015/08/10/your-filename.html</link>
+        <guid isPermaLink="true">http://localhost:3000/2015/08/10/your-filename.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>hello world</title>
+        <description>&lt;p&gt;Только что запустил свой первый блог на &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; и &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github pages&lt;/a&gt;. &lt;/p&gt;
+
+&lt;!--Сделал бы это быстрее, если бы знал о некоторых тонкостях:--&gt;
+
+&lt;!--* По-умолчанию, сайт созданный через `$ jekyll new new-site` не будет корректно отображаться на Github Pages, в настройках надо было поменять:--&gt;
+
+&lt;!--baseurl: /dianov.org  --&gt;
+&lt;!--url: http://illus0r.github.io/dianov.org--&gt;
+</description>
+        <pubDate>Wed, 17 Jun 2015 00:00:00 +0300</pubDate>
+        <link>http://localhost:3000/jekyll/2015/06/17/hello.html</link>
+        <guid isPermaLink="true">http://localhost:3000/jekyll/2015/06/17/hello.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
